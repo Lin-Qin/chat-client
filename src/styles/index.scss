@@ -1,0 +1,9 @@
+@import "./css-var.scss";
+
+body {
+  // font-family: @font-family-base;
+  font-size: 16px;
+  color: var(--color-text-1);
+  background-color: var(--color-bg-1);
+}
+

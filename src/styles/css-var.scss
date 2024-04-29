@@ -1,0 +1,56 @@
+:root {
+  /**
+  * Color Palette
+  * -------------------------------------------------------------------------- */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-1: #f8f8f8;
+  --color-gray-2: #f3f3f3;
+  --color-gray-3: #eeeeee;
+  --color-gray-4: #dddddd;
+  --color-gray-5: #cccccc;
+  --color-gray-6: #999999;
+  --color-gray-7: #666666;
+  --color-gray-8: #222222;
+  --color-gray-9: #141414;
+  --color-primary: #0BB694; // 主色
+  --color-vice: #d9f6ef; // 辅助色
+  --color-vice-text: #1ba784; // 辅助色
+  --color-red: #ee0a24;
+  --color-blue: #1989fa;
+  --color-orange: #ff976a;
+  --color--dark: #ed6a0c;
+  --color--light: #fffbe8;
+  --color-green: #07c160;
+
+  /**
+  * Colors Theme: Light
+  * -------------------------------------------------------------------------- */
+
+  /* Text Color */
+  --color-text-1: var(--color-gray-8); // 强调/正文标题
+  --color-text-2: var(--color-gray-7); // 次强调/正文标题
+  --color-text-3: var(--color-gray-6); // 次要信息
+  --color-text-4: var(--color-gray-5); // 置灰信息，例如表单的输入提示文本、禁用色文本等。
+
+  /* Border Color */
+  --color-border-1: var(--color-gray-3); // 边框颜色
+  --color-border-2: var(--color-gray-4); // 边框颜色
+
+  /* Background Color */
+  --color-bg-1: var(--color-gray-1); // 元素，容器背景
+  --color-bg-2: var(--van-white);
+  --color-bg-3: var(--van-white);
+  --color-bg-4: var(--van-white);
+  --color-bg-5: var(--van-white);
+
+  /* SafeArea */
+  --safe-area-height-top: constant(safe-area-inset-top);
+  --safe-area-height-top: env(safe-area-inset-top);
+  --safe-area-height-bottom: constant(safe-area-inset-bottom);
+  --safe-area-height-bottom: env(safe-area-inset-bottom);
+
+
+  // 替换vant默认样式
+  --van-nav-bar-icon-color: #222222 !important;
+}
