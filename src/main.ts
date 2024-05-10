@@ -3,7 +3,7 @@ import { VueQueryPlugin } from '@tanstack/vue-query'
 import VConsole from 'vconsole'
 import App from './App.vue'
 import { setupRouter } from '@/router'
-import { setupStore } from '@/store/index'
+// import { setupStore } from '@/store/index'
 
 import 'tailwindcss/tailwind.css'
 import '@/styles/index.scss'
@@ -23,7 +23,7 @@ if (['development', 'test'].includes(MODE))
 setupRouter(app)
 
 // 注册pinia
-setupStore(app)
+// setupStore(app)
 
 // 引入vue-query
 app.use(VueQueryPlugin)
