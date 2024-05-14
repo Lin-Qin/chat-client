@@ -5,7 +5,7 @@ name: 'Home'
 </script>
 <template>
   <div class="">
-    home
+    home222222
   </div>
 </template>
 
