@@ -6,6 +6,7 @@ name: 'Home'
 <template>
   <div class="">
     home222222
+    <img src="~@/assets/image/logo.png" alt="" srcset="">
   </div>
 </template>
 
